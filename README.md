@@ -32,9 +32,9 @@ Security awareness training programs are essential for building a strong securit
 
 ### Dataset
 
-For the project, we analyzed feedback from security awareness training programs. If you'd like to use a similar dataset, you can:
-- Collect security training reviews from platforms like Udemy, Coursera, or internal training feedback forms.
-- [Placeholder for dataset source if available]
+Initially, I aimed to gather a dataset of security training course reviews from Udemy, but due to issues with Udemy API’s affiliate program, I couldn’t retrieve it. Instead, I used a dataset of Twitter text, which I tailored to capture similar insights regarding common misconceptions and participant sentiment in security-related discussions.
+
+---
 
 ### Model Development
 
