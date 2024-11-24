@@ -51,28 +51,15 @@ The model was trained and fine-tuned to extract relevant insights from the feedb
 
 The project is deployed on **Hugging Face** to make it accessible and interactive. Users can input feedback directly through the interface and receive analyzed results instantly.
 
-#### Deployment Steps
+#### Deployment Link
 
-1. **Clone the Repository**:
+1. **Hugging Face Deployment**:
+   The model is deployed on Hugging Face for easy access. Log in to Hugging Face as following link:
     ```bash
-    git clone https://github.com/username/security-awareness-training-analysis.git
-    cd security-awareness-training-analysis
+    https://huggingface.co/spaces/bilalakhtar/Security-Awareness-Training-Analysis-Using-NLP
     ```
 
-2. **Run Locally** (Optional):
-   To test the model locally, set up a virtual environment and install the required packages.
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Hugging Face Deployment**:
-   The model is deployed on Hugging Face for easy access. Log in to Hugging Face and push the model:
-    ```python
-    !huggingface-cli login
-    lda_model.push_to_hub("your-username/security-awareness-training-analysis")
-    ```
-
-4. **Interactive Gradio Interface**:
+2. **Interactive Gradio Interface**:
    The Hugging Face interface integrates with Gradio to allow users to input new feedback and view insights in real-time.
 
 ---
